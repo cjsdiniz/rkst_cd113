@@ -1,0 +1,20 @@
+{
+  "name": "rkst_cd113",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/cjsdiniz/rkst_cd113.git",
+  "author": "cjsdiniz <67067863+cjsdiniz@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only src/server.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
