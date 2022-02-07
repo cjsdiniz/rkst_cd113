@@ -6,7 +6,8 @@
   "author": "cjsdiniz <67067863+cjsdiniz@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev --transpile-only src/server.ts"
+    "dev": "ts-node-dev --transpile-only src/server.ts",
+    "typeorm": "ts-node-dev node_modules/typeorm/cli.js"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
